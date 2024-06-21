@@ -1,0 +1,6 @@
+.bar {
+  position: absolute;
+  height: 20px;
+  background-color: #3498db;
+  transition: width 0.3s, left 0.3s; /* Add transition for smooth resizing */
+}

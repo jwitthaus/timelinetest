@@ -1,0 +1,23 @@
+.bar-chart {
+  position: relative;
+  height: 300px;
+  display: flex; /* oder grid */
+  flex-direction: column; /* oder grid-template-columns: 1fr */
+  z-index: 2; /* Place it in front of the background columns */
+}
+
+.bar-wrapper {
+  position: relative;
+  height: 300px;
+  display: flex; /* oder grid */
+  flex-direction: column; /* oder grid-template-columns: 1fr */
+}
+
+.bar-chart-container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevents line breaks for the bars */
+  position: relative;
+}
